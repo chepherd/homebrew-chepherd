@@ -10,28 +10,28 @@
 class Chepherd < Formula
   desc "TUI supervisor for parallel AI coding agents"
   homepage "https://chepherd.org"
-  version "0.2.0-beta"
+  version "0.2.0-rc1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/chepherd/chepherd/releases/download/v0.2.0-beta/chepherd_0.2.0-beta_darwin_arm64.tar.gz"
-      sha256 "3ae7f722d08940d7602bd83d36123b3720f1d8c1be0d054db5c83b1fc1a6f4df"
+      url "https://github.com/chepherd/chepherd/releases/download/v0.2.0-rc1/chepherd_0.2.0-rc1_darwin_arm64.tar.gz"
+      sha256 "4268bdc51030fced3e113eae0cb9b38621e84307c098b922506f578dbfa15505"
     end
     on_intel do
-      url "https://github.com/chepherd/chepherd/releases/download/v0.2.0-beta/chepherd_0.2.0-beta_darwin_amd64.tar.gz"
-      sha256 "3261ee5b1426e66863fdc4109dadd44e462d2a311e9a248a0c163e725fb78be6"
+      url "https://github.com/chepherd/chepherd/releases/download/v0.2.0-rc1/chepherd_0.2.0-rc1_darwin_amd64.tar.gz"
+      sha256 "e6c5fc1dd5d4338fe7cc9c1a6255b4f2ef635df6dd7b9f62503296914166f8c3"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/chepherd/chepherd/releases/download/v0.2.0-beta/chepherd_0.2.0-beta_linux_arm64.tar.gz"
-      sha256 "c9cd40614a33935eacacc8491fdef7d0dc526f447bf35ba14793b9b8782435e7"
+      url "https://github.com/chepherd/chepherd/releases/download/v0.2.0-rc1/chepherd_0.2.0-rc1_linux_arm64.tar.gz"
+      sha256 "948cb9c83ad9cc4d5a5357227612a6a5d8539686362fe3db17e633531109ef7a"
     end
     on_intel do
-      url "https://github.com/chepherd/chepherd/releases/download/v0.2.0-beta/chepherd_0.2.0-beta_linux_amd64.tar.gz"
-      sha256 "79858e7923fe5f7bafaa6eaa237f71b3db39bb87b2b3831d3bbbf56620256ec7"
+      url "https://github.com/chepherd/chepherd/releases/download/v0.2.0-rc1/chepherd_0.2.0-rc1_linux_amd64.tar.gz"
+      sha256 "2b216fef7f7ed309b4683ab7f46593d36f3f2428f21d7e46dbc237877d9f70d3"
     end
   end
 
